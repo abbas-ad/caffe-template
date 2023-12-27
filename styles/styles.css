@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat&family=Satisfy&display=swap");
+:root {
+  --text-color: #9e774d;
+  --text-box-bg-color: #ae8f6c;
+  --box-menu-color: #e8dfd5;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: IRANSans;
+  background-image: url(../assets/images/bgImages.png);
+  background-size: cover;
+  object-fit: cover;
+  background-repeat: no-repeat;
+}
+
+.header-image-positions {
+  width: 300px;
+  height: auto;
+  margin: 0 auto;
+  padding-top: 90px;
+}
+
+.header-image-positions .header-img,
+.header-image-positions .header-img img {
+  width: 100%;
+  height: 100%;
+}
+
+.menu-tittle {
+  color: var(--text-color);
+  font-size: 40px;
+  font-family: IranNastaliq;
+}
+
+.menu-iteams {
+  color: var(--text-color);
+  font-size: 18px;
+}
+.row {
+  width: 100% !important ;
+}
+
+.menu-part {
+  text-align: center;
+}
+
+.menu-tittle {
+  padding-left: 160px;
+}
+
+.box-menu {
+  width: 80%;
+  height: auto;
+  padding: 50px;
+  border-radius: 20px;
+  margin: 40px auto;
+  background-color: var(--text-box-bg-color);
+  outline: 4px solid var(--text-box-bg-color);
+}
+.box-menu .row .menu-part .menu-tittle,
+.box-menu .row .menu-part .menu-iteams {
+  color: var(--box-menu-color);
+}
+
+.bottom-icones-positions {
+  width: 100%;
+  display: block;
+  height: auto;
+  margin: 0 auto;
+  padding: 50px;
+  text-align: center;
+}
+
+.bottom-icones-positions .bottom-icones,
+.coustom-row {
+  width: 100%;
+  height: 100%;
+}
+
+.bottom-icones-positions .bottom-icones img {
+  width: 40% !important;
+}
+
+.sotials {
+  margin-top: 100px;
+  width: 100%;
+  padding: 100px;
+}
+
+.insta,
+.out-locations {
+  width: 100%;
+  height: 200px;
+  border-radius: 40px;
+  background-color: var(--text-box-bg-color);
+  margin: 10px;
+}
+.insta img,
+.out-locations img {
+  width: 150px;
+  height: 150px;
+  margin-top: 11%;
+  margin-right: 11%;
+}
+/* REPONSIVE--PART */
+
+/* small tablet*/
+@media (min-width: 768px) {
+  .row {
+    width: 50% !important ;
+  }
+  .box-menu .row {
+    width: 50% !important ;
+  }
+
+  .insta,
+  .out-locations {
+    width: 40% !important ;
+  }
+}
